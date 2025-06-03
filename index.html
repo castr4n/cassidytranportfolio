@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Home</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="lightmode">
+  <h1>CASSIDY TRAN</h1>
+
+  <!-- darkmode/lightmode button -->
+    <button id='darkswitch' onclick="darkMode()"><img src="darkmodeimg.png" width = 50px></button>
+  <button id='lightswitch' onclick="lightMode()"><img src="lightmodeimg.png" width = 50px></button>
+
+  <!-- navbar -->
+  <div class="navbar">
+        <a class="active" href="index.html"><p class="underlineEffectactive">Home</p></a>
+        <a href="#projects"><p class="underlineEffect">Projects</p></a>
+        <a href="#about"><p class="underlineEffect">About Me</p></a>
+        <a href="#contact"><p class="underlineEffect">Contact</p></a>
+  </div>
+
+  <h2>INTRODUCTION</h2>
+  <p class="text">Hi, my name is Cassidy Tran! I'm a Code Coach at The Coder School Irvine.</p>
+
+  <h2 id="projects">CHECK OUT MY PROJECTS</h2>
+  <p class="text">Some of my projects include...</p>
+
+  <h2 id="about">ABOUT ME!</h2>
+  <p class="text">A little bit about  me...</p>
+
+  <h2 id="contact">LET'S TALK!</h2>
+  <p class="text">Have any questions, comments, or just want to chat? Let's get connected!</p>
+  
+  <!-- FORMS: text fields, checkboxes, radio buttons, submit buttons, etc -->
+  <form id="text fields">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname">
+    
+  </form>
+
+  <p>Choose your favorite Web language:</p>
+  <form id="radio butons">
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label>
+  </form><br>
+
+  <form id="checkboxes">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label>
+  </form>
+  <br>
+
+  <form action="/index.html">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
