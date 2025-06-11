@@ -67,6 +67,7 @@ font-size: clamp(3rem, 8vw, 6rem); /* Responsive font size */
 font-weight: 900;
 margin-top: 30vh; /* Space from navbar */
 margin-bottom: 2rem;
+margin-left: 2em;
 letter-spacing: 0.3rem;
 background: linear-gradient(135deg, var(--titletext) 0%, var(--accentcolor) 50%, var(--subheadingtext) 100%);
 -webkit-background-clip: text;
