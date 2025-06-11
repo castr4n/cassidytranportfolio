@@ -106,7 +106,7 @@ color: var(--navbartext);
 text-align: center;
 padding: 15px 30px; /* Increased padding for better touch targets */
 text-decoration: none;
-font-size: 16px; /* Increased font size */
+font-size: 12px; /* Increased font size */
 font-family: 'Poppins', sans-serif;
 font-weight: 500;
 transition: all 0.4s ease;
@@ -123,7 +123,6 @@ transform: translateY(-2px);
 .navbar a.active {
 background-color: var(--accentcolor);
 color: var(--navbartext);
-border-radius: 25px;
 }
 
 .banner {
