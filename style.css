@@ -62,7 +62,7 @@ body {
   color: var(--titletext);
   font-family: Inter, sans-serif;
   font-size: 50px;
-  padding-top: 100px;
+  top: 500px;
 }
 
 .navbar {
