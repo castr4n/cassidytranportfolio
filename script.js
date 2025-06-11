@@ -1,36 +1,26 @@
-let button = document.getElementById("lightswitch");
-button.style.display = "none";
-
 function darkMode() {
-
-  let element = document.body;
-  element.className = "darkmode";
-
-  /* hide darkmode button */
-  let button = document.getElementById("darkswitch");
-  button.style.display = "none";
-  /* show lightmode button */
-  let button2 = document.getElementById("lightswitch");
-  button2.style.display = "block";
-
+  document.body.className = "darkmode";
+  document.getElementById('darkswitch').style.display = 'none';
+  document.getElementById('lightswitch').style.display = 'block';
 }
 
 function lightMode() {
-  let element = document.body;
-  element.className = "lightmode";
-
-  /* hide lightmode button */
-  let button = document.getElementById("lightswitch");
-  button.style.display = "none";
-  /* show darkmode button */
-  let button2 = document.getElementById("darkswitch");
-  button2.style.display = "block";  
+  document.body.className = "lightmode";
+  document.getElementById('lightswitch').style.display = 'none';
+  document.getElementById('darkswitch').style.display = 'block';
 }
 
+// Initialize theme buttons
+document.getElementById('lightswitch').style.display = 'none';
 
-
-function topFunction(val) {
-  document.body.scrollTop = val; // For Safari
-  document.documentElement.scrollTop = val; // For Chrome, Firefox, IE and Opera
-}
-lightMode()
+// Add smooth navbar background change on scroll
+window.addEventListener('scroll', function() {
+  const navbar = document.querySelector('.navbar');
+  if (window.scrollY > 50) {
+    navbar.style.backgroundColor = 'rgba(17, 29, 44, 0.95)';
+    navbar.style.backdropFilter = 'blur(15px)';
+  } else {
+    navbar.style.backgroundColor = 'var(--navbarcolor)';
+    navbar.style.backdropFilter = 'blur(10px)';
+  }
+});
