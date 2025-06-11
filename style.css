@@ -54,7 +54,6 @@ body {
   background-color: var(--bgcolor);
   font-family: Inter, sans-serif;
   transition: background-color 0.3s;
-  
 }
 
 
@@ -65,24 +64,6 @@ h1 {
   font-size: 25px;
 }
 
-h2 {
-  text-align: left;
-  color: var(--subheadingtext);
-  font-family: sans-serif;
-  font-size: 20px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.text {
-  font-size: 13px;
-  color: var(--maintextcolor);
-  margin-bottom: 20em;
-  padding: 0px;
-  transition: color 0.4s;
-}
-
 .navbar {
   /* display: flex;
   justify-content: center; */
@@ -90,7 +71,6 @@ h2 {
   overflow: hidden;
   width:100%;
   margin:0;
-  border-radius: 15px;
   box-shadow: 0px 3px 7px gray;
   
 }
@@ -105,7 +85,6 @@ h2 {
   font-family: Inter, sans-serif;
   transition: color 0.4s;
 }
-
 
 .navbar a.active {
   background-color: var(--accentcolor);
@@ -167,31 +146,3 @@ h2 {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-
-/* Transitions: */
-
-/* transition: <property> <duration> <timing-function> <delay>; */
-
-
-/* customizing form tag - text fields only */
-
-/* input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-
-input[type=text] {
-  transition: width 0.4s ease-in-out;
-}
-
-input[type=text]:focus {
-  width: 100%;
-} */
-
-/* Images in text field: "background-image: url('searchicon.png');"
-
-** :focus is when user clicks or taps on the element - used for form inputs
-
-*/
