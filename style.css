@@ -66,8 +66,8 @@ body {
 }
 
 .navbar {
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
   background-color: var(--navbarcolor);
   overflow: hidden;
   width:100%;
