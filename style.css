@@ -62,8 +62,8 @@ body {
   color: var(--titletext);
   font-family: Inter, sans-serif;
   font-size: 50px;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 .navbar {
