@@ -80,7 +80,7 @@ body {
   float:left;
   color: var(--navbartext);
   text-align: center;
-  padding: 4px 25px; /* 1st position is for top/bottom, 2nd is for right/left */
+  padding: 6px 25px; /* 1st position is for top/bottom, 2nd is for right/left */
   text-decoration: none;
   font-size: 15px;
   font-family: Inter, sans-serif;
